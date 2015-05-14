@@ -1,0 +1,9 @@
+<html t:type="layout" title="DodavanjeSoba com.milospaunovic"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+
+    <t:beaneditform object="sob1" exclude="id" />
+    <t:grid source="listaSoba" exclude="id"/>
+
+</html>
+
